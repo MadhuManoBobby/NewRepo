@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <h1>Welcome to React Js</h1>
       <HookCount/>
-      
+      <StudentDetail fname="Madhu"/>
     </div>
   );
 }

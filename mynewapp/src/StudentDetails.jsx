@@ -1,10 +1,10 @@
 import React from 'react';
 import { StudentArray } from './StudentArray';
 
-export default function StudentDetail(){
+export default function StudentDetail(props){
     // const {id,name,age} = props
     console.log(StudentArray);
-    // const {fname} = props
+    const {fname} = props
 
     // let fname = "Sindhu";
     
@@ -17,6 +17,7 @@ export default function StudentDetail(){
     // }
 
     return <div>
+        <h1>{fname}</h1>
         {StudentArray.map(stu => {
         return <ul>
         <li>Id: {stu.id}</li>
