@@ -43,5 +43,4 @@ export class HeaderComponent extends Component {
         <h1>Header Component</h1>
       </div>
     )
-  }
 }

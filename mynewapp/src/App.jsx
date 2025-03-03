@@ -12,7 +12,7 @@ import CustomStyle from './CustomStyle';
 import Greet from './Greet';
 import LifeCycleMount from './LifeCycle/LifeCycleMount';
 import LifeCycleUpdate from './LifeCycle/LifeCycleUpdate';
-import LifeCycleUnMount from './LifeCycleUnMount';
+import LifeCycleUnMount from './LifeCycle/LifeCycleUnMount';
 
 function App() {
   return (
