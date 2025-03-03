@@ -1,0 +1,14 @@
+#header{
+    background-color: antiquewhite;
+    width: 350px;
+    color: maroon;
+    margin: 10px auto;
+    border: 5px solid rgb(70, 3, 3);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#header:hover{
+    background-color: rgb(10, 70, 72);
+    color: burlywood;
+}
